@@ -5,7 +5,7 @@
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         
     }
-    div {
+    .roundedmid {
         width: 600px;
         margin: 5em auto;
         padding: 50px;
@@ -13,6 +13,21 @@
         border-radius: 1em;
         text-align:center;
     }
+	
+	.main {
+		width: 1024px;
+		margin: 5em auto;
+		border-radius: 2px;
+		border-color: #000;
+		background-color: #f4e842;
+		border-radius: 2px;
+	}
+	
+	#compname {
+		text-align:center;
+	}
+	
+	
     a:link, a:visited {
         color: #5ec9ff;
         text-decoration: none;
