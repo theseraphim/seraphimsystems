@@ -7,7 +7,6 @@
     }
     .roundedmid {
         width: 600px;
-        margin: 5em auto;
         padding: 50px;
         background-color: #fffcd6;
         border-radius: 1em;
@@ -15,12 +14,10 @@
     }
 	
 	.main {
-		width: 1024px;
-		margin: 5em auto;
-		border-radius: 2px;
+		width: 1200px;
+		border-radius: 5px;
 		border-color: #000;
-		background-color: #f4e842;
-		border-radius: 2px;
+		background-color: #feee33;
 	}
 	
 	#compname {
