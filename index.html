@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Seraphim Systems Ltd</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="menubutton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
@@ -58,7 +58,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
+    <header class="masthead" id="topgap">
       <div class="container">
         <div class="intro-text">
           <div class="intro-heading">Seraphim Systems Ltd</div>
@@ -711,7 +711,19 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+	  
+    <!-- extra javascript -->
+	  <script>
+document.getElementById("menubutton").addEventListener("click", myFunction);
 
+function myFunction() {
+	if (document.getElementById("topgap").style.padding == "100px") {
+		  document.getElementById("topgap").style.padding = "300px";
+	}	  else {
+		  document.getElementById("topap").style.padding = "100px";
+	}
+}
+</script>
   </body>
 
 </html>
